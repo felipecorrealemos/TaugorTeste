@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OCRFireBase</id>
+    <version>1.0.0</version>
+    <authors>OCRFireBase</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="FirebaseDatabase.net" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Cloud.Firestore" version="3.3.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Cloud.Storage.V1" version="4.6.0" exclude="Build,Analyzers" />
+        <dependency id="PDFsharp" version="1.50.5147" exclude="Build,Analyzers" />
+        <dependency id="Tesseract" version="5.2.0" exclude="Build,Analyzers" />
+        <dependency id="iTextSharp" version="5.5.13.3" exclude="Build,Analyzers" />
+        <dependency id="sautinsoft.document" version="2023.9.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/ic_launcher.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Felipe\source\repos\OCRFireBase\bin\Debug\net6.0-windows\OCRFireBase.runtimeconfig.json" target="lib\net6.0-windows7.0\OCRFireBase.runtimeconfig.json" />
+    <file src="C:\Users\Felipe\source\repos\OCRFireBase\bin\Debug\net6.0-windows\OCRFireBase.dll" target="lib\net6.0-windows7.0\OCRFireBase.dll" />
+    <file src="C:\Users\Felipe\source\repos\OCRFireBase\ic_launcher.ico" target="content\ic_launcher.ico" />
+    <file src="C:\Users\Felipe\source\repos\OCRFireBase\ic_launcher.ico" target="contentFiles\any\net6.0-windows7.0\ic_launcher.ico" />
+  </files>
+</package>
